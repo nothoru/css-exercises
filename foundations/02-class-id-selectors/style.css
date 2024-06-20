@@ -1,0 +1,22 @@
+.odd{
+    background-color: rgb(255, 132, 214);
+    font-family: Verdana, 'Dejavu Sans', sans-serif;
+}
+
+#two{
+    color: rgb(50, 93, 233);
+    font-size: 36px;
+}
+
+
+
+
+/* i could have use chaining selector here to avoid redudant because of font-size: 24px */
+.odd.three{
+    font-size: 24px;
+}
+
+#four{
+    background-color: rgb(52, 233, 82);
+    font-size: 24px;
+}
